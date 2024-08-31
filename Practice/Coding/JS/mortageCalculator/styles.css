@@ -1,0 +1,17 @@
+#inputs label {
+    display: inline-block;
+    width: 100px;
+}
+
+#inputs,
+#outputs {
+    margin: 10px;
+}
+
+#inputs div {
+    margin: 5px 0px;
+}
+
+body {
+    font-family: sans-serif;
+}

@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+}
+
+button.active {
+    border: 1px solid green;
+}
+
+p.active {
+    display: block;
+}
+
+p {
+    display: none;
+}

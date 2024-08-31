@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./src/styles.css" />
+    </head>
+    <body>
+        <div>
+            <div id="tabs">
+                <button
+                    class="tab_html active"
+                    data-target="tab_content_html"
+                    data-index="1"
+                >
+                    HTML
+                </button>
+                <button
+                    class="tab_css"
+                    data-target="tab_content_css"
+                    data-index="2"
+                >
+                    CSS
+                </button>
+                <button
+                    class="tab_js"
+                    data-target="tab_content_js"
+                    data-index="3"
+                >
+                    JavaScript
+                </button>
+            </div>
+            <div id="'tab_content">
+                <p
+                    id="tab_content_html"
+                    data-active="1"
+                    data-index="1"
+                    class="active"
+                >
+                    The HyperText Markup Language or HTML is the standard markup
+                    language for documents designed to be displayed in a web
+                    browser.
+                </p>
+                <p id="tab_content_css" data-active="1" data-index="2">
+                    Cascading Style Sheets is a style sheet language used for
+                    describing the presentation of a document written in a
+                    markup language such as HTML or XML.
+                </p>
+                <p id="tab_content_js" data-active="1" data-index="3">
+                    JavaScript, often abbreviated as JS, is a programming
+                    language that is one of the core technologies of the World
+                    Wide Web, alongside HTML and CSS.
+                </p>
+            </div>
+        </div>
+        <script src="src/index.js"></script>
+    </body>
+</html>

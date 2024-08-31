@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="'utf-8" />
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <section class="calculator">
+            <form id="inputs">
+                <div>
+                    <label>Amount:</label>
+                    <input name="load_amount" type="number" min="1" required value="100000"/>
+                    <span id="load_amount_error"></span>
+                </div>
+                <div>
+                    <label>Term:</label>
+                    <input name="load_term" type="number" min="1" required value="30"/>
+                    <span id="load_term_error"></span>
+                </div>
+                <div>
+                    <label>Rate(%):</label>
+                    <input name="load_rate" type="number" min="0.01" step="0.01" required value="3"/>
+                    <span id="load_rate_error"></span>
+                </div>
+                <div>
+                    <!-- <input type="submit">Calculate</input> -->
+                    <button id="load_btn_apply">Calculate</button>
+                </div>
+            </div>
+            <div id="outputs">
+                <div>
+                    <span>Month Payment:</span><strong id="output_monthPayment"></strong>
+                </div>
+                <div>
+                    <span>Total Payment:</span><strong id="output_totalPayment"></strong>
+                </div>
+                <div>
+                    <span>Total Interests:</span><strong id="output_totalInterests"></strong>
+                </div>
+            </div>
+        </section>
+        <script src="./index.js"></script>
+    </body>
+</html>

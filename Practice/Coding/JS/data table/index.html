@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="'utf-8" />
+        <link rel="stylesheet" src="./src/styles.css" />
+    </head>
+    <body>
+        <section>
+            <div id="tableContainer">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Occupation</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="paginationContainer">
+                <select id="usersPerPage"></select>
+                <button id="prePage">Previous Page</button>
+                <span id="pageInfo"></span>
+                <button id="nextPage">Next Page</button>
+            </div>
+        </section>
+        <script type="module" src="./src/index.js"></script>
+    </body>
+</html>
